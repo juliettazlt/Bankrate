@@ -4,7 +4,7 @@ __pycache__/
 *$py.class
 *.so
 .Python
-venv/
+.venv/
 ENV/
 
 # Distribution / packaging
@@ -41,3 +41,9 @@ wheels/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Project artifacts (ignore only what you don't want tracked)
+*.html
+*.pptx
+*.docx
+julietta_zhu_RV_newdata.xlsx
